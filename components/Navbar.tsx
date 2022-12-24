@@ -6,7 +6,7 @@ const NavBar : React.FC = () : JSX.Element => {
     const share = () : void => {
         navigator.share({
             text: "Are you bored and have nothing to do, try these activities",
-            url: "https://salesmall-survey.netlify.app/"
+            url: "https://iambore.netlify.app/"
         }).then(() => {
             console.log("Link shared")
         }).catch((error) => alert("Sorry, could not share"))
