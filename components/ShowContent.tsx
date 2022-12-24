@@ -33,7 +33,7 @@ const ShowContent = ({results}  : Props) : JSX.Element => {
                         <p className={styles.description}>{(results.participants > 1) ? `${results.participants} people` : `${results.participants} person`}</p>
                     </div>
                 </div>
-                <h4 className={styles.author}>Made by: <b className={styles.authorName}>Awonke Mnotoza</b></h4>
+                <h4 className={styles.author}>Made by: <b className={styles.authorName}>unknown</b></h4>
             </main>
         </div>
     )
