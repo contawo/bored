@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: #010023;
+}
+
+.shareContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #010023;
+    cursor: pointer;
+}
+
+.shareContainer:hover {
+    color: #0038FF;
+}
+
+.shareIcon {
+    margin-right: .5rem;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        height: 3%;
+        margin-bottom: 3rem
+    }
+
+    .title {
+        font-size: .8rem;
+    }
+
+    .shareContainer {
+        font-size: .8rem;
+    }
+}
