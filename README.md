@@ -9,6 +9,7 @@ Hey there! I'm **Awonke Mnotoza**, and welcome to **Bored**—your go-to solutio
 ## Tech Stack
 ### Frontend
 - **Next.js**: Our trusty frontend framework.
+- **Typescript**: Handling those data types like a pro.
 - **API Integration**: Fetching tasks from the [Bored API](https://www.boredapi.com/) at the following endpoint `api/activity`.
 ### Backend
 - **No Backend Needed**: Yep, you read that right! I've keeping it simple and serverless.
